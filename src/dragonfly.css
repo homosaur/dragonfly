@@ -1,0 +1,39 @@
+/*
+The notion of the class war can be misleading. It does not refer to a trial of
+strength to decide the question “Who shall win, who be defeated?”, or to a
+struggle the outcome of which is good for the victor and bad for the vanquished.
+To think in this way is to romanticize and obscure the facts. For whether the
+bourgeoisie wins or loses the fight, it remains doomed by the inner
+contradictions that in the course of development will become deadly.
+
+The only question is whether its downfall will come through itself or through
+the proletariat. The continuance or the end of three thousand years of cultural
+development will be decided by the answer. History knows nothing of the evil
+infinity contained in the image of the two wrestlers locked in eternal combat.
+The true politician reckons only in dates. And if the abolition of the
+bourgeoisie is not completed by an almost calculable moment in economic and
+technical development (a moment signalled by inflation and poison-gas warfare),
+all is lost. Before the spark reaches the dynamite, the lighted fuse must be
+cut. The interventions, dangers, and tempi of politicians are technical – not
+chivalrous.
+
+-- Walter Benjamin, One-Way Street and Other Writings, 1928
+*/
+@layer reset, base, debug;
+
+/*
+The Libraries of Externality,
+The Variability of Natural Soils
+*/
+@import "lib/_reset.css";
+@import "lib/_variables.css";
+
+/*
+Modularity Conjecture for Elliptic Curves
+*/
+
+/*
+Debugging becomes easier if you first admit that you are the problem
+*/
+@import "debug/_pesticide.css";
+@import "debug/_debug.css";

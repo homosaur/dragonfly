@@ -1,0 +1,173 @@
+/*
+a combination of styles I almost always use for resets except in a few specific
+cases. it improves bad dev and reader experience with browser defaults. probably
+the most controversial is using margin/padding zero on the universal selector
+but honestly the defaults suck. if you're going to style and entire page just
+get rid of them. if not and you're just writing mostly HTML you can remove that
+one.
+
+most of the definitions i've compiled over time but i've also pulled many resets
+from https://github.com/elad2412/the-new-css-reset
+*/
+@layer reset {
+    /* do what you want here but if you're styling everything you don't want this stuff */
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /*  Remove all the styles of the "User-Agent-Stylesheet", except for the
+        'display' property
+        - The "symbol *" part is to solve Firefox SVG sprite bug
+        - The "html" element is excluded, otherwise a bug in Chrome breaks the
+          CSS hyphens property
+          (https://github.com/elad2412/the-new-css-reset/issues/36)
+    */
+    *:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
+        all: unset;
+        display: revert;
+    }
+
+    /* better styling default experience */
+    *,
+    *::before,
+    *::after {
+        font-feature-settings: "kern";
+        font-kerning: normal;
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: antialiased;
+        box-sizing: border-box;
+    }
+
+    /* Fix mobile Safari increase font-size on landscape mode */
+    html {
+        -moz-text-size-adjust: none;
+        -webkit-text-size-adjust: none;
+        text-size-adjust: none;
+    }
+
+    /* Reapply the pointer cursor for anchor tags */
+    a, button {
+        cursor: revert;
+    }
+
+    /* Remove list styles (bullets/numbers) */
+    ol, ul, menu, summary {
+        list-style: none;
+    }
+
+    /* Firefox: solve issue where nested ordered lists continue numbering from parent (https://bugzilla.mozilla.org/show_bug.cgi?id=1881517) */
+    ol {
+        counter-reset: revert;
+    }
+
+    /* removes spacing between cells in tables */
+    table {
+        border-collapse: collapse;
+    }
+
+    /* Safari - solving issue when using user-select:none on the <body> text input doesn't working */
+    input, textarea {
+        -webkit-user-select: auto;
+    }
+
+    /* revert the 'white-space' property for textarea elements on Safari */
+    textarea {
+        white-space: revert;
+    }
+
+    /* minimum style to allow to style meter element */
+    meter {
+        -webkit-appearance: revert;
+        appearance: revert;
+    }
+
+    /* preformatted text - use only for this feature */
+    :where(pre) {
+        all: revert;
+        box-sizing: border-box;
+    }
+
+    /* reset default text opacity of input placeholder */
+    ::placeholder {
+        color: unset;
+    }
+
+    /* fix the feature of 'hidden' attribute.
+       display:revert; revert to element instead of attribute
+    */
+    :where([hidden]) {
+        display: none;
+    }
+
+    /* revert for bug in Chromium browsers
+       - fix for the content editable attribute will work properly.
+       - webkit-user-select: auto; added for Safari in case of using user-select:none on wrapper element
+    */
+    :where([contenteditable]:not([contenteditable="false"])) {
+        -moz-user-modify: read-write;
+        -webkit-user-modify: read-write;
+        overflow-wrap: break-word;
+        -webkit-line-break: after-white-space;
+        -webkit-user-select: auto;
+    }
+
+    /* apply back the draggable feature - exist only in Chromium and Safari */
+    :where([draggable="true"]) {
+        -webkit-user-drag: element;
+    }
+
+    /* Revert Modal native behavior */
+    :where(dialog:modal) {
+        all: revert;
+        box-sizing: border-box;
+    }
+
+    /* Remove details summary webkit styles */
+    ::-webkit-details-marker {
+        display: none;
+    }
+
+    /* default line height in browser is pretty rough, this will give you a better baseline */
+    body {
+        line-height: 1.5;
+    }
+
+    /* pointer finger on inputs is better A11Y */
+    input:is([type="checkbox"], [type="radio"]),
+    select,
+    label,
+    button {
+        cursor: pointer;
+    }
+
+    /* better default media settings */
+    img, picture, video, canvas, svg {
+        display: block;
+        max-inline-size: 100%;
+        max-block-size: 100%;
+    }
+
+    /* improve font defaults for controls */
+    input, button, textarea, select {
+        font: inherit;
+        letter-spacing: inherit;
+        word-spacing: inherit;
+        color: currentColor;
+    }
+
+    p, h1, h2, h3, h4, h5, h6, figcaption {
+        overflow-wrap: break-word;
+    }
+
+    /* improves wrapping behavior somewhat in supporting clients */
+    p {
+        text-wrap: pretty;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        text-wrap: balance;
+        hyphens: auto;
+        hyphenate-limit-chars: 10;
+    }
+}
