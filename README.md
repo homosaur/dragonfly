@@ -13,7 +13,11 @@ complete.
 
 ## build
 
-pending
+`npm run dev` will build the css and html and serve it with browser-sync for
+local development.
+
+`npm run build:prod` will build the css and put it in the `dist` folder. use
+this if you just want to configure and extract styles for your project.
 
 ## how to customize
 
