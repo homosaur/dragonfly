@@ -31,9 +31,12 @@ The Variability of Natural Soils
 /*
 Modularity Conjecture for Elliptic Curves
 */
+@import "modules/_type.css";
+@import "modules/_fonts.css";
+@import "modules/_links.css";
+@import "modules/_spacing.css";
 
 /*
 Debugging becomes easier if you first admit that you are the problem
 */
 @import "debug/_pesticide.css";
-@import "debug/_debug.css";

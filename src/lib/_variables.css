@@ -31,6 +31,7 @@
     --tint-9: hsla(0, 0%, 100%, 0.815);
     --tint-10: hsla(0, 0%, 100%, 0.895);
     --tint-11: hsla(0, 0%, 100%, 0.94);
+
     --shade-0: hsla(0, 0%, 0%, 0.94);
     --shade-1: hsla(0, 0%, 0%, 0.895);
     --shade-2: hsla(0, 0%, 0%, 0.815);
@@ -43,6 +44,7 @@
     --shade-9: hsla(0, 0%, 0%, 0.19);
     --shade-10: hsla(0, 0%, 0%, 0.1);
     --shade-11: hsla(0, 0%, 0%, 0.035);
+
     --gray-0: #000000;
     --gray-1: #171717;
     --gray-2: #2f2f2f;
@@ -55,6 +57,7 @@
     --gray-9: #d1d1d1;
     --gray-10: #e8e8e8;
     --gray-11: #ffffff;
+
     --slate-gray-0: #09090b;
     --slate-gray-1: #1d1d22;
     --slate-gray-2: #313138;
@@ -67,6 +70,7 @@
     --slate-gray-9: #c9c9d0;
     --slate-gray-10: #e1e0e4;
     --slate-gray-11: #f8f8f9;
+
     --blue-0: #030b18;
     --blue-1: #071e3f;
     --blue-2: #0c3166;
@@ -79,6 +83,7 @@
     --blue-9: #a3c6f7;
     --blue-10: #c9ddfa;
     --blue-11: #eff5fe;
+
     --indigo-0: #080614;
     --indigo-1: #19143f;
     --indigo-2: #2a216a;
@@ -91,6 +96,7 @@
     --indigo-9: #c0b7ff;
     --indigo-10: #dad5ff;
     --indigo-11: #f4f3ff;
+
     --violet-0: #110517;
     --violet-1: #2e0d3e;
     --violet-2: #4b1465;
@@ -103,6 +109,7 @@
     --violet-9: #deabf7;
     --violet-10: #eccefa;
     --violet-11: #f9f0fe;
+
     --magenta-0: #13040f;
     --magenta-1: #350a2c;
     --magenta-2: #581148;
@@ -115,6 +122,7 @@
     --magenta-9: #eca9dd;
     --magenta-10: #f4ceec;
     --magenta-11: #fcf2fa;
+
     --red-0: #120205;
     --red-1: #39050f;
     --red-2: #5f0819;
@@ -127,6 +135,7 @@
     --red-9: #f49fb0;
     --red-10: #f9c7d1;
     --red-11: #fdeef1;
+
     --red-orange-0: #190b05;
     --red-orange-1: #3d1307;
     --red-orange-2: #601b0a;
@@ -139,6 +148,7 @@
     --red-orange-9: #ffa48e;
     --red-orange-10: #ffccbe;
     --red-orange-11: #fff3ee;
+
     --orange-0: #150d04;
     --orange-1: #2e1c08;
     --orange-2: #472a0c;
@@ -151,6 +161,7 @@
     --orange-9: #ffc081;
     --orange-10: #ffdab7;
     --orange-11: #fff5ed;
+
     --gold-0: #140e05;
     --gold-1: #2c1f0a;
     --gold-2: #432f0e;
@@ -163,6 +174,7 @@
     --gold-9: #f7d38a;
     --gold-10: #fbe5bc;
     --gold-11: #fff5e9;
+
     --yellow-0: #111006;
     --yellow-1: #252405;
     --yellow-2: #3a3804;
@@ -175,6 +187,7 @@
     --yellow-9: #fdf89b;
     --yellow-10: #fef9bb;
     --yellow-11: #fefadb;
+
     --green-0: #091108;
     --green-1: #0f2611;
     --green-2: #153c1a;
@@ -187,6 +200,7 @@
     --green-9: #90e8ae;
     --green-10: #bdf3cc;
     --green-11: #eafeea;
+
     --teal-0: #07100c;
     --teal-1: #0c231a;
     --teal-2: #113628;
@@ -199,6 +213,7 @@
     --teal-9: #8bdac7;
     --teal-10: #bbe9dc;
     --teal-11: #ecf8f2;
+
     --cyan-0: #0a1211;
     --cyan-1: #102425;
     --cyan-2: #153639;
@@ -213,7 +228,7 @@
     --cyan-11: #e2ffff;
 
 
-    /* t e x t   s c a l e */
+    /* t y p o g r a p h y */
     --font-size-0: 0.75rem;
     --font-size-1: 0.875rem;
     --font-size-2: 1rem;
@@ -225,12 +240,19 @@
     --font-size-8: 4rem;
     --font-size-9: 6rem;
     --font-size-10: 8rem;
+    --font-size-11: 11rem;
+
     --line-height-solid: 1;
     --line-height-heading: 1.25;
     --line-height-body: 1.5;
+
     --letter-spacing-tracked: 0.1em;
     --letter-spacing-negative: -0.05em;
     --letter-spacing-large: 0.25em;
+
+    --measure: 66ch;
+    --measure-wide: 80ch;
+    --measure-narrow: 45ch;
 
 
     /* s p a c i n g */
@@ -284,6 +306,7 @@
     --box-shadow-5: 0px 19px 38px 0px rgba(0, 0, 0, 0.08),
     0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.16),
     0px 8px 8px 0px rgba(0, 0, 0, 0.2);
+
     --box-shadow-border: inset 0px 0px 0px 1px currentColor;
     --box-shadow-border-light-overlay: inset 0px 0px 0px 1px
     rgba(255, 255, 255, 0.13);
@@ -301,4 +324,12 @@
     --easing-function-3: linear;
     --easing-function-4: cubic-bezier(0.679, -0.474, 0.066, 1.394);
     --easing-function-5: steps(7, jump-none);
+
+
+    /* l i n k s */
+    --link-color: var(--blue-5);
+    --link-decoration-color: var(--red-5);
+    --link-decoration-thickness: .125em;
+    --link-underline-offset: .09735em;
+    --link-decoration-color-hover: var(--red-5);
 }

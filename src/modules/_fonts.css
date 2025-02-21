@@ -1,0 +1,15 @@
+.font-stack-system, .system                   { font-family: var(--system);               }
+.font-stack-transitional, .transitional       { font-family: var(--transitional);         }
+.font-stack-old-style, .old-style             { font-family: var(--old-style);            }
+.font-stack-humanist, .humanist               { font-family: var(--humanist);             }
+.font-stack-geometric-humanist, .geo-humanist { font-family: var(--geometric-humanist);   }
+.font-stack-classical-humanist, .classical    { font-family: var(--classical-humanist);   }
+.font-stack-neo-grotesque, .neo-grotesque     { font-family: var(--neo-grotesque);        }
+.font-stack-monospace-slab, .mono-slab        { font-family: var(--monospace-slab-serif); }
+.font-stack-monospace-code, .mono-code        { font-family: var(--monospace-code);       }
+.font-stack-industrial, .industrial           { font-family: var(--industrial);           }
+.font-stack-rounded-sans, .rounded            { font-family: var(--rounded-sans);         }
+.font-stack-slab-serif, .slab                 { font-family: var(--slab-serif);           }
+.font-stack-antique, .antique                 { font-family: var(--antique);              }
+.font-stack-didone, .didone                   { font-family: var(--didone);               }
+.font-stack-handwritten, .handwritten         { font-family: var(--handwritten);          }

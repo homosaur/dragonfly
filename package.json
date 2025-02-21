@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "build:css": "mkdir -p dist && postcss src/dragonfly.css -o dist/dragonfly.min.css",
+    "watch:css": "mkdir -p dist && postcss src/dragonfly.css -o dist/dragonfly.min.css --watch",
+    "build:html": "mkdir -p dist && cp src/*.html dist/",
+    "watch:html": "onchange 'src/*.html' -- npm run build:html",
+    "serve": "browser-sync start --server 'dist' --files 'dist/*.css, dist/*.html' --no-notify",
+    "prebuild": "npm run build:html && npm run build:css",
+    "dev": "npm run prebuild && concurrently \"npm run watch:css\" \"npm run watch:html\" \"npm run serve\""
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "browser-sync": "^2.29.3",
+    "concurrently": "^8.2.2",
+    "cssnano": "^6.0.1",
+    "onchange": "^7.1.0",
+    "postcss": "^8.4.31",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0"
+  }
+}

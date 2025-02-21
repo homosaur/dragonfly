@@ -1,0 +1,11 @@
+a {
+    color: var(--link-color);
+    text-decoration: underline;
+    text-decoration-color: var(--link-decoration-color);
+    text-decoration-thickness: var(--link-decoration-thickness);
+    text-underline-offset: var(--link-underline-offset);
+
+    &:hover {
+       color: var(--link-decoration-color-hover);
+    }
+}
