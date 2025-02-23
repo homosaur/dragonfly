@@ -12,14 +12,16 @@
             width: 100px;
             height: 100px;
             border-radius: 5px;
-            margin: 5px 0;
+            margin: 5px 5px 5px 0;
 
-            &[class$="-7"]:not([class*="shade"]),
-            &[class$="-8"]:not([class*="shade"]),
-            &[class$="-9"]:not([class*="shade"]),
-            &[class$="-10"]:not([class*="shade"]),
-            &[class$="-11"]:not([class*="shade"]) {
-                color: black;
+            &[class$="-0"]:not([class*="tint"]),
+            &[class$="-1"]:not([class*="tint"]),
+            &[class$="-2"]:not([class*="tint"]),
+            &[class$="-3"]:not([class*="tint"]),
+            &[class$="-4"]:not([class*="tint"]),
+            &[class$="-5"]:not([class*="tint"]),
+            &[class$="-6"]:not([class*="tint"]) {
+                color: white;
             }
 
             p {
@@ -319,549 +321,618 @@
             <h2 id="colors" class="f7">colors <a href="#" onclick="toggleCollapse('colors-contents')" class="f2">(toggle collapse)</a></h2>
             <div id="colors-contents">
                 <h3 class="f5">color palette</h3>
-                <div>
-                    <div class="color-box backgroundcolor-tint-0">
-                        <p>tint-0</p>
+                <div class="display-flex flex-wrap">
+                    <div>
+                        <div class="color-box backgroundcolor-tint-0">
+                            <p>tint-0</p>
+                        </div>
+                        <div class="color-box backgroundcolor-tint-1">
+                            <p>tint-1</p>
+                        </div>
+                        <div class="color-box backgroundcolor-tint-2">
+                            <p>tint-2</p>
+                        </div>
+                        <div class="color-box backgroundcolor-tint-3">
+                            <p>tint-3</p>
+                        </div>
+                        <div class="color-box backgroundcolor-tint-4">
+                            <p>tint-4</p>
+                        </div>
+                        <div class="color-box backgroundcolor-tint-5">
+                            <p>tint-5</p>
+                        </div>
+                        <div class="color-box backgroundcolor-tint-6">
+                            <p>tint-6</p>
+                        </div>
+                        <div class="color-box backgroundcolor-tint-7">
+                            <p>tint-7</p>
+                        </div>
+                        <div class="color-box backgroundcolor-tint-8">
+                            <p>tint-8</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-tint-9">
+                            <p>tint-9</p>
+                        </div>
+                        <div class="color-box backgroundcolor-tint-10">
+                            <p>tint-10</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-tint-11">
+                            <p>tint-11</p>
+                        </div>
                     </div>
-                    <div class="color-box backgroundcolor-tint-1">
-                        <p>tint-1</p>
+                    <div>
+                        <div class="color-box backgroundcolor-shade-0">
+                            <p>shade-0</p>
+                        </div>
+                        <div class="color-box backgroundcolor-shade-1">
+                            <p>shade-1</p>
+                        </div>
+                        <div class="color-box backgroundcolor-shade-2">
+                            <p>shade-2</p>
+                        </div>
+                        <div class="color-box backgroundcolor-shade-3">
+                            <p>shade-3</p>
+                        </div>
+                        <div class="color-box backgroundcolor-shade-4">
+                            <p>shade-4</p>
+                        </div>
+                        <div class="color-box backgroundcolor-shade-5">
+                            <p>shade-5</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-shade-6">
+                            <p>shade-6</p>
+                        </div>
+                        <div class="color-box backgroundcolor-shade-7">
+                            <p>shade-7</p>
+                        </div>
+                        <div class="color-box backgroundcolor-shade-8">
+                            <p>shade-8</p>
+                        </div>
+                        <div class="color-box backgroundcolor-shade-9">
+                            <p>shade-9</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-shade-10">
+                            <p>shade-10</p>
+                        </div>
+                        <div class="color-box backgroundcolor-shade-11">
+                            <p>shade-11</p>
+                        </div>
                     </div>
-                    <div class="color-box backgroundcolor-tint-2">
-                        <p>tint-2</p>
+                    <div>
+                        <div class="color-box backgroundcolor-gray-0">
+                            <p>gray-0</p>
+                        </div>
+                        <div class="color-box backgroundcolor-gray-1">
+                            <p>gray-1</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-gray-2">
+                            <p>gray-2</p>
+                        </div>
+                        <div class="color-box backgroundcolor-gray-3">
+                            <p>gray-3</p>
+                        </div>
+                        <div class="color-box backgroundcolor-gray-4">
+                            <p>gray-4</p>
+                        </div>
+                        <div class="color-box backgroundcolor-gray-5">
+                            <p>gray-5</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-gray-6">  
+                            <p>gray-6</p>
+                        </div>
+                        <div class="color-box backgroundcolor-gray-7">
+                            <p>gray-7</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-gray-8">
+                            <p>gray-8</p>
+                        </div>
+                        <div class="color-box backgroundcolor-gray-9">
+                            <p>gray-9</p>
+                        </div>
+                        <div class="color-box backgroundcolor-gray-10">
+                            <p>gray-10</p>
+                        </div>
+                        <div class="color-box backgroundcolor-gray-11">
+                            <p>gray-11</p>
+                        </div>
                     </div>
-                    <div class="color-box backgroundcolor-tint-3">
-                        <p>tint-3</p>
+                    <div>
+                        <div class="color-box backgroundcolor-slate-gray-0">
+                            <p>slate-gray-0</p>
+                        </div>
+                        <div class="color-box backgroundcolor-slate-gray-1">
+                            <p>slate-gray-1</p>
+                        </div>
+                        <div class="color-box backgroundcolor-slate-gray-2">
+                            <p>slate-gray-2</p>
+                        </div>
+                        <div class="color-box backgroundcolor-slate-gray-3">
+                            <p>slate-gray-3</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-slate-gray-4">    
+                            <p>slate-gray-4</p>
+                        </div>
+                        <div class="color-box backgroundcolor-slate-gray-5">
+                            <p>slate-gray-5</p>
+                        </div>
+                        <div class="color-box backgroundcolor-slate-gray-6">
+                            <p>slate-gray-6</p>
+                        </div>
+                        <div class="color-box backgroundcolor-slate-gray-7">
+                            <p>slate-gray-7</p>
+                        </div>
+                        <div class="color-box backgroundcolor-slate-gray-8">
+                            <p>slate-gray-8</p>
+                        </div>
+                        <div class="color-box backgroundcolor-slate-gray-9">
+                            <p>slate-gray-9</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-slate-gray-10">   
+                            <p>slate-gray-10</p>
+                        </div>
+                        <div class="color-box backgroundcolor-slate-gray-11">
+                            <p>slate-gray-11</p>
+                        </div>  
                     </div>
-                    <div class="color-box backgroundcolor-tint-4">
-                        <p>tint-4</p>
+                    <div>
+                        <div class="color-box backgroundcolor-blue-0">
+                            <p>blue-0</p>
+                        </div>
+                        <div class="color-box backgroundcolor-blue-1">
+                            <p>blue-1</p>
+                        </div>
+                        <div class="color-box backgroundcolor-blue-2">
+                            <p>blue-2</p>
+                        </div>
+                        <div class="color-box backgroundcolor-blue-3">
+                            <p>blue-3</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-blue-4">
+                            <p>blue-4</p>
+                        </div>
+                        <div class="color-box backgroundcolor-blue-5">
+                            <p>blue-5</p>
+                        </div>
+                        <div class="color-box backgroundcolor-blue-6">
+                            <p>blue-6</p>
+                        </div>
+                        <div class="color-box backgroundcolor-blue-7">
+                            <p>blue-7</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-blue-8">  
+                            <p>blue-8</p>
+                        </div>
+                        <div class="color-box backgroundcolor-blue-9">
+                            <p>blue-9</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-blue-10">
+                            <p>blue-10</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-blue-11">
+                            <p>blue-11</p>
+                        </div>  
                     </div>
-                    <div class="color-box backgroundcolor-tint-5">
-                        <p>tint-5</p>
+                    <div>
+                        <div class="color-box backgroundcolor-indigo-0">
+                            <p>indigo-0</p>
+                        </div>
+                        <div class="color-box backgroundcolor-indigo-1">
+                            <p>indigo-1</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-indigo-2">
+                            <p>indigo-2</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-indigo-3">
+                            <p>indigo-3</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-indigo-4">
+                            <p>indigo-4</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-indigo-5">
+                            <p>indigo-5</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-indigo-6">
+                            <p>indigo-6</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-indigo-7">
+                            <p>indigo-7</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-indigo-8">
+                            <p>indigo-8</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-indigo-9">
+                            <p>indigo-9</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-indigo-10">
+                            <p>indigo-10</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-indigo-11">
+                            <p>indigo-11</p>
+                        </div>  
                     </div>
-                    <div class="color-box backgroundcolor-tint-6">
-                        <p>tint-6</p>
+                    <div>
+                        <div class="color-box backgroundcolor-violet-0">
+                            <p>violet-0</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-violet-1">
+                            <p>violet-1</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-violet-2">
+                            <p>violet-2</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-violet-3">
+                            <p>violet-3</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-violet-4">
+                            <p>violet-4</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-violet-5">
+                            <p>violet-5</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-violet-6">    
+                            <p>violet-6</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-violet-7">
+                            <p>violet-7</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-violet-8">
+                            <p>violet-8</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-violet-9">
+                            <p>violet-9</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-violet-10">
+                            <p>violet-10</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-violet-11">
+                            <p>violet-11</p>
+                        </div>    
                     </div>
-                    <div class="color-box backgroundcolor-tint-7">
-                        <p>tint-7</p>
+                    <div>
+                        <div class="color-box backgroundcolor-magenta-0">   
+                            <p>magenta-0</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-magenta-1">
+                            <p>magenta-1</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-magenta-2">
+                            <p>magenta-2</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-magenta-3">
+                            <p>magenta-3</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-magenta-4">
+                            <p>magenta-4</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-magenta-5">
+                            <p>magenta-5</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-magenta-6">
+                            <p>magenta-6</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-magenta-7">
+                            <p>magenta-7</p>
+                        </div>        
+                        <div class="color-box backgroundcolor-magenta-8">
+                            <p>magenta-8</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-magenta-9">
+                            <p>magenta-9</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-magenta-10">
+                            <p>magenta-10</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-magenta-11">
+                            <p>magenta-11</p>
+                        </div>  
                     </div>
-                    <div class="color-box backgroundcolor-tint-8">
-                        <p>tint-8</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-tint-9">
-                        <p>tint-9</p>
+                    <div>
+                        <div class="color-box backgroundcolor-red-0">
+                            <p>red-0</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-red-1">
+                            <p>red-1</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-red-2">
+                            <p>red-2</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-red-3">
+                            <p>red-3</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-red-4">
+                            <p>red-4</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-red-5">
+                            <p>red-5</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-red-6">
+                            <p>red-6</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-red-7">
+                            <p>red-7</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-red-8">   
+                            <p>red-8</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-red-9">
+                            <p>red-9</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-red-10">  
+                            <p>red-10</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-red-11">
+                            <p>red-11</p>
+                        </div>    
                     </div>
-                    <div class="color-box backgroundcolor-tint-10">
-                        <p>tint-10</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-tint-11">
-                        <p>tint-11</p>
+                    <div>
+                        <div class="color-box backgroundcolor-redorange-0">
+                            <p>redorange-0</p>
+                        </div>
+                        <div class="color-box backgroundcolor-redorange-1">
+                            <p>redorange-1</p>
+                        </div>
+                        <div class="color-box backgroundcolor-redorange-2">
+                            <p>redorange-2</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-redorange-3">
+                            <p>redorange-3</p>
+                        </div>
+                        <div class="color-box backgroundcolor-redorange-4">
+                            <p>redorange-4</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-redorange-5">
+                            <p>redorange-5</p>
+                        </div>
+                        <div class="color-box backgroundcolor-redorange-6">
+                            <p>redorange-6</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-redorange-7">
+                            <p>redorange-7</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-redorange-8">
+                            <p>redorange-8</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-redorange-9">
+                            <p>redorange-9</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-redorange-10">
+                            <p>redorange-10</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-redorange-11">
+                            <p>redorange-11</p>
+                        </div>  
                     </div>
-                    <div class="color-box backgroundcolor-shade-0">
-                        <p>shade-0</p>
+                    <div>
+                        <div class="color-box backgroundcolor-orange-0">
+                            <p>orange-0</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-orange-1">
+                            <p>orange-1</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-orange-2">
+                            <p>orange-2</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-orange-3">
+                            <p>orange-3</p>
+                        </div>        
+                        <div class="color-box backgroundcolor-orange-4">
+                            <p>orange-4</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-orange-5">
+                            <p>orange-5</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-orange-6">
+                            <p>orange-6</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-orange-7">
+                            <p>orange-7</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-orange-8">
+                            <p>orange-8</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-orange-9">
+                            <p>orange-9</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-orange-10">
+                            <p>orange-10</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-orange-11">
+                            <p>orange-11</p>
+                        </div>  
                     </div>
-                    <div class="color-box backgroundcolor-shade-1">
-                        <p>shade-1</p>
+                    <div>
+                        <div class="color-box backgroundcolor-gold-0">  
+                            <p>gold-0</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-gold-1">
+                            <p>gold-1</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-gold-2">  
+                            <p>gold-2</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-gold-3">
+                            <p>gold-3</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-gold-4">  
+                            <p>gold-4</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-gold-5">
+                            <p>gold-5</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-gold-6">      
+                            <p>gold-6</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-gold-7">
+                            <p>gold-7</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-gold-8">      
+                            <p>gold-8</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-gold-9">
+                            <p>gold-9</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-gold-10">     
+                            <p>gold-10</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-gold-11">
+                            <p>gold-11</p>
+                        </div>    
                     </div>
-                    <div class="color-box backgroundcolor-shade-2">
-                        <p>shade-2</p>
+                    <div>
+                        <div class="color-box backgroundcolor-yellow-0">
+                            <p>yellow-0</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-yellow-1">
+                            <p>yellow-1</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-yellow-2">
+                            <p>yellow-2</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-yellow-3">
+                            <p>yellow-3</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-yellow-4">
+                            <p>yellow-4</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-yellow-5">
+                            <p>yellow-5</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-yellow-6">
+                            <p>yellow-6</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-yellow-7">
+                            <p>yellow-7</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-yellow-8">
+                            <p>yellow-8</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-yellow-9">
+                            <p>yellow-9</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-yellow-10">
+                            <p>yellow-10</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-yellow-11">
+                            <p>yellow-11</p>
+                        </div>    
                     </div>
-                    <div class="color-box backgroundcolor-shade-3">
-                        <p>shade-3</p>
+                    <div>
+                        <div class="color-box backgroundcolor-green-0"> 
+                            <p>green-0</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-green-1">
+                            <p>green-1</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-green-2">
+                            <p>green-2</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-green-3">
+                            <p>green-3</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-green-4">
+                            <p>green-4</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-green-5">
+                            <p>green-5</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-green-6">
+                            <p>green-6</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-green-7">
+                            <p>green-7</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-green-8">
+                            <p>green-8</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-green-9">
+                            <p>green-9</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-green-10">
+                            <p>green-10</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-green-11">
+                            <p>green-11</p>
+                        </div>    
                     </div>
-                    <div class="color-box backgroundcolor-shade-4">
-                        <p>shade-4</p>
+                    <div>
+                        <div class="color-box backgroundcolor-teal-0">
+                            <p>teal-0</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-teal-1">
+                            <p>teal-1</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-teal-2">      
+                            <p>teal-2</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-teal-3">
+                            <p>teal-3</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-teal-4">
+                            <p>teal-4</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-teal-5">
+                            <p>teal-5</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-teal-6">
+                            <p>teal-6</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-teal-7">
+                            <p>teal-7</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-teal-8">      
+                            <p>teal-8</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-teal-9">
+                            <p>teal-9</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-teal-10">     
+                            <p>teal-10</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-teal-11">
+                            <p>teal-11</p>
+                        </div>      
                     </div>
-                    <div class="color-box backgroundcolor-shade-5">
-                        <p>shade-5</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-shade-6">
-                        <p>shade-6</p>
-                    </div>
-                    <div class="color-box backgroundcolor-shade-7">
-                        <p>shade-7</p>
-                    </div>
-                    <div class="color-box backgroundcolor-shade-8">
-                        <p>shade-8</p>
-                    </div>
-                    <div class="color-box backgroundcolor-shade-9">
-                        <p>shade-9</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-shade-10">
-                        <p>shade-10</p>
-                    </div>
-                    <div class="color-box backgroundcolor-shade-11">
-                        <p>shade-11</p>
-                    </div>
-                    <div class="color-box backgroundcolor-gray-0">
-                        <p>gray-0</p>
-                    </div>
-                    <div class="color-box backgroundcolor-gray-1">
-                        <p>gray-1</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-gray-2">
-                        <p>gray-2</p>
-                    </div>
-                    <div class="color-box backgroundcolor-gray-3">
-                        <p>gray-3</p>
-                    </div>
-                    <div class="color-box backgroundcolor-gray-4">
-                        <p>gray-4</p>
-                    </div>
-                    <div class="color-box backgroundcolor-gray-5">
-                        <p>gray-5</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-gray-6">  
-                        <p>gray-6</p>
-                    </div>
-                    <div class="color-box backgroundcolor-gray-7">
-                        <p>gray-7</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-gray-8">
-                        <p>gray-8</p>
-                    </div>
-                    <div class="color-box backgroundcolor-gray-9">
-                        <p>gray-9</p>
-                    </div>
-                    <div class="color-box backgroundcolor-gray-10">
-                        <p>gray-10</p>
-                    </div>
-                    <div class="color-box backgroundcolor-gray-11">
-                        <p>gray-11</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-slate-gray-0">
-                        <p>slate-gray-0</p>
-                    </div>
-                    <div class="color-box backgroundcolor-slate-gray-1">
-                        <p>slate-gray-1</p>
-                    </div>
-                    <div class="color-box backgroundcolor-slate-gray-2">
-                        <p>slate-gray-2</p>
-                    </div>
-                    <div class="color-box backgroundcolor-slate-gray-3">
-                        <p>slate-gray-3</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-slate-gray-4">    
-                        <p>slate-gray-4</p>
-                    </div>
-                    <div class="color-box backgroundcolor-slate-gray-5">
-                        <p>slate-gray-5</p>
-                    </div>
-                    <div class="color-box backgroundcolor-slate-gray-6">
-                        <p>slate-gray-6</p>
-                    </div>
-                    <div class="color-box backgroundcolor-slate-gray-7">
-                        <p>slate-gray-7</p>
-                    </div>
-                    <div class="color-box backgroundcolor-slate-gray-8">
-                        <p>slate-gray-8</p>
-                    </div>
-                    <div class="color-box backgroundcolor-slate-gray-9">
-                        <p>slate-gray-9</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-slate-gray-10">   
-                        <p>slate-gray-10</p>
-                    </div>
-                    <div class="color-box backgroundcolor-slate-gray-11">
-                        <p>slate-gray-11</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-blue-0">
-                        <p>blue-0</p>
-                    </div>
-                    <div class="color-box backgroundcolor-blue-1">
-                        <p>blue-1</p>
-                    </div>
-                    <div class="color-box backgroundcolor-blue-2">
-                        <p>blue-2</p>
-                    </div>
-                    <div class="color-box backgroundcolor-blue-3">
-                        <p>blue-3</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-blue-4">
-                        <p>blue-4</p>
-                    </div>
-                    <div class="color-box backgroundcolor-blue-5">
-                        <p>blue-5</p>
-                    </div>
-                    <div class="color-box backgroundcolor-blue-6">
-                        <p>blue-6</p>
-                    </div>
-                    <div class="color-box backgroundcolor-blue-7">
-                        <p>blue-7</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-blue-8">  
-                        <p>blue-8</p>
-                    </div>
-                    <div class="color-box backgroundcolor-blue-9">
-                        <p>blue-9</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-blue-10">
-                        <p>blue-10</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-blue-11">
-                        <p>blue-11</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-indigo-0">
-                        <p>indigo-0</p>
-                    </div>
-                    <div class="color-box backgroundcolor-indigo-1">
-                        <p>indigo-1</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-indigo-2">
-                        <p>indigo-2</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-indigo-3">
-                        <p>indigo-3</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-indigo-4">
-                        <p>indigo-4</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-indigo-5">
-                        <p>indigo-5</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-indigo-6">
-                        <p>indigo-6</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-indigo-7">
-                        <p>indigo-7</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-indigo-8">
-                        <p>indigo-8</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-indigo-9">
-                        <p>indigo-9</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-indigo-10">
-                        <p>indigo-10</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-indigo-11">
-                        <p>indigo-11</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-violet-0">
-                        <p>violet-0</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-violet-1">
-                        <p>violet-1</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-violet-2">
-                        <p>violet-2</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-violet-3">
-                        <p>violet-3</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-violet-4">
-                        <p>violet-4</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-violet-5">
-                        <p>violet-5</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-violet-6">    
-                        <p>violet-6</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-violet-7">
-                        <p>violet-7</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-violet-8">
-                        <p>violet-8</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-violet-9">
-                        <p>violet-9</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-violet-10">
-                        <p>violet-10</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-violet-11">
-                        <p>violet-11</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-magenta-0">   
-                        <p>magenta-0</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-magenta-1">
-                        <p>magenta-1</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-magenta-2">
-                        <p>magenta-2</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-magenta-3">
-                        <p>magenta-3</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-magenta-4">
-                        <p>magenta-4</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-magenta-5">
-                        <p>magenta-5</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-magenta-6">
-                        <p>magenta-6</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-magenta-7">
-                        <p>magenta-7</p>
-                    </div>        
-                    <div class="color-box backgroundcolor-magenta-8">
-                        <p>magenta-8</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-magenta-9">
-                        <p>magenta-9</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-magenta-10">
-                        <p>magenta-10</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-magenta-11">
-                        <p>magenta-11</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-red-0">
-                        <p>red-0</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-red-1">
-                        <p>red-1</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-red-2">
-                        <p>red-2</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-red-3">
-                        <p>red-3</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-red-4">
-                        <p>red-4</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-red-5">
-                        <p>red-5</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-red-6">
-                        <p>red-6</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-red-7">
-                        <p>red-7</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-red-8">   
-                        <p>red-8</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-red-9">
-                        <p>red-9</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-red-10">  
-                        <p>red-10</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-red-11">
-                        <p>red-11</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-orange-0">
-                        <p>orange-0</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-orange-1">
-                        <p>orange-1</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-orange-2">
-                        <p>orange-2</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-orange-3">
-                        <p>orange-3</p>
-                    </div>        
-                    <div class="color-box backgroundcolor-orange-4">
-                        <p>orange-4</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-orange-5">
-                        <p>orange-5</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-orange-6">
-                        <p>orange-6</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-orange-7">
-                        <p>orange-7</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-orange-8">
-                        <p>orange-8</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-orange-9">
-                        <p>orange-9</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-orange-10">
-                        <p>orange-10</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-orange-11">
-                        <p>orange-11</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-gold-0">  
-                        <p>gold-0</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-gold-1">
-                        <p>gold-1</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-gold-2">  
-                        <p>gold-2</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-gold-3">
-                        <p>gold-3</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-gold-4">  
-                        <p>gold-4</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-gold-5">
-                        <p>gold-5</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-gold-6">      
-                        <p>gold-6</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-gold-7">
-                        <p>gold-7</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-gold-8">      
-                        <p>gold-8</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-gold-9">
-                        <p>gold-9</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-gold-10">     
-                        <p>gold-10</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-gold-11">
-                        <p>gold-11</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-yellow-0">
-                        <p>yellow-0</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-yellow-1">
-                        <p>yellow-1</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-yellow-2">
-                        <p>yellow-2</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-yellow-3">
-                        <p>yellow-3</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-yellow-4">
-                        <p>yellow-4</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-yellow-5">
-                        <p>yellow-5</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-yellow-6">
-                        <p>yellow-6</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-yellow-7">
-                        <p>yellow-7</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-yellow-8">
-                        <p>yellow-8</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-yellow-9">
-                        <p>yellow-9</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-yellow-10">
-                        <p>yellow-10</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-yellow-11">
-                        <p>yellow-11</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-green-0"> 
-                        <p>green-0</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-green-1">
-                        <p>green-1</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-green-2">
-                        <p>green-2</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-green-3">
-                        <p>green-3</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-green-4">
-                        <p>green-4</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-green-5">
-                        <p>green-5</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-green-6">
-                        <p>green-6</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-green-7">
-                        <p>green-7</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-green-8">
-                        <p>green-8</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-green-9">
-                        <p>green-9</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-green-10">
-                        <p>green-10</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-green-11">
-                        <p>green-11</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-teal-0">
-                        <p>teal-0</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-teal-1">
-                        <p>teal-1</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-teal-2">      
-                        <p>teal-2</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-teal-3">
-                        <p>teal-3</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-teal-4">
-                        <p>teal-4</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-teal-5">
-                        <p>teal-5</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-teal-6">
-                        <p>teal-6</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-teal-7">
-                        <p>teal-7</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-teal-8">      
-                        <p>teal-8</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-teal-9">
-                        <p>teal-9</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-teal-10">     
-                        <p>teal-10</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-teal-11">
-                        <p>teal-11</p>
-                    </div>      
-                    <div class="color-box backgroundcolor-cyan-0">
-                        <p>cyan-0</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-cyan-1">
-                        <p>cyan-1</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-cyan-2">
-                        <p>cyan-2</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-cyan-3">
-                        <p>cyan-3</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-cyan-4">
-                        <p>cyan-4</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-cyan-5">
-                        <p>cyan-5</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-cyan-6">
-                        <p>cyan-6</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-cyan-7">
-                        <p>cyan-7</p>
-                    </div>    
-                    <div class="color-box backgroundcolor-cyan-8">
-                        <p>cyan-8</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-cyan-9">
-                        <p>cyan-9</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-cyan-10">
-                        <p>cyan-10</p>
-                    </div>  
-                    <div class="color-box backgroundcolor-cyan-11">
-                        <p>cyan-11</p>
+                    <div>
+                        <div class="color-box backgroundcolor-cyan-0">
+                            <p>cyan-0</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-cyan-1">
+                            <p>cyan-1</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-cyan-2">
+                            <p>cyan-2</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-cyan-3">
+                            <p>cyan-3</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-cyan-4">
+                            <p>cyan-4</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-cyan-5">
+                            <p>cyan-5</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-cyan-6">
+                            <p>cyan-6</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-cyan-7">
+                            <p>cyan-7</p>
+                        </div>    
+                        <div class="color-box backgroundcolor-cyan-8">
+                            <p>cyan-8</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-cyan-9">
+                            <p>cyan-9</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-cyan-10">
+                            <p>cyan-10</p>
+                        </div>  
+                        <div class="color-box backgroundcolor-cyan-11">
+                            <p>cyan-11</p>
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
     </main>
 </body>
 </html>

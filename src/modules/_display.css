@@ -1,0 +1,8 @@
+.display-none             { display: none; }
+.display-inline           { display: inline; }
+.display-block            { display: block; }
+.display-inlineblock      { display: inline-block; }
+.display-flex             { display: flex; }
+.display-inlineflex       { display: inline-flex; }
+.display-grid             { display: grid; }
+.display-inlinegrid       { display: inline-grid; }

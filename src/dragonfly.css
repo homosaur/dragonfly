@@ -40,17 +40,17 @@ Typography
 @import "modules/_links.css";
 @import "modules/_spacing.css";
 @import "modules/_lists.css";
-@import "modules/_lists.css";
 
 /*
 Layout
 */
+@import "modules/_display.css";
 @import "modules/_grid.css";
 @import "modules/_flexbox.css";
 @import "modules/_position.css";
-@import "modules/_display.css";
 @import "modules/_coordinates.css";
 @import "modules/_aspect-ratios.css";
+@import "modules/_floats.css";
 
 /*
 Colors and Decorators
