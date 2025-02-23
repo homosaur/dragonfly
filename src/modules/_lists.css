@@ -1,0 +1,43 @@
+/* 
+freaking lists man, i hate this. i hate that i have to write this code. this is
+a very opinionated way to handle lists but the typographical way to handle lists
+is quite straightforward.
+
+the newer browser defaults are ok but i really tried to roll with them and i
+kept cringing at how typographically ugly they are. these are not amazing, lists
+in general need improvements in css capability, but they're definitely better
+and they at least use your font's bullets.
+
+feels like a waste to have all this code to make bullets 20% better, maybe, but
+i did test them just to make sure they weren't more difficult to handle than the
+defaults.
+
+ordered list setup is a little better than default and provides a nice pattern
+for you to start with. you may want need to customize them further, especially
+if you're using lists with hundreds of items.
+ */
+
+ol li {
+    counter-increment: steps;
+    position: relative;
+
+    &::before {
+        content: counter(steps) ")";
+        text-align: right;
+        margin-right: 0.5em;
+        position: absolute;
+        left: -2em;
+        width: 1.5em;
+    }
+}
+
+ul li {
+    position: relative;
+    
+    &::before {
+        content: "•";
+        margin-right: 0.5em;
+        position: absolute;
+        left: -1em;
+    }
+}

@@ -331,5 +331,6 @@
     --link-decoration-color: var(--red-5);
     --link-decoration-thickness: .125em;
     --link-underline-offset: .09735em;
+    --link-color-hover: var(--red-5);
     --link-decoration-color-hover: var(--red-5);
 }

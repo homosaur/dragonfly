@@ -6,6 +6,11 @@ a {
     text-underline-offset: var(--link-underline-offset);
 
     &:hover {
-       color: var(--link-decoration-color-hover);
+       color: var(--link-color-hover);
+       text-decoration-color: var(--link-decoration-color-hover);
+    }
+
+    &:focus {
+        outline: 2px solid var(--link-color-hover);
     }
 }

@@ -19,9 +19,9 @@
 .letter-spacing-negative, .lsn { letter-spacing: var(--letter-spacing-negative); }
 .letter-spacing-large, .lsl    { letter-spacing: var(--letter-spacing-large);    }
 
-.maxwidth-measure, .measure               { max-width: var(--measure);        }
-.maxwidth-measure-wide, .measure-wide     { max-width: var(--measure-wide);   }
-.maxwidth-measure-narrow, .measure-narrow { max-width: var(--measure-narrow); }
+.maxwidth-measure, .m          { max-width: var(--measure);        }
+.maxwidth-measure-wide, .mw    { max-width: var(--measure-wide);   }
+.maxwidth-measure-narrow, .mn  { max-width: var(--measure-narrow); }
 
 .italic, .i          { font-style: italic;             }
 .normal, .n          { font-style: normal;             }
