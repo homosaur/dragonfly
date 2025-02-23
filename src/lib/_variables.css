@@ -282,11 +282,6 @@
     --border-width-3: 4px;
     --border-width-4: 8px;
 
-    --border-style-0: none;
-    --border-style-1: solid;
-    --border-style-2: dashed;
-    --border-style-3: dotted;
-
     --box-shadow-0: 0px 1px 1px 0px hsla(0, 0%, 0%, 0.035),
     0px 2px 2px 0px rgba(0, 0, 0, 0.125), 0px 4px 4px 0px rgba(0, 0, 0, 0.125),
     0px 8px 8px 0px rgba(0, 0, 0, 0.125), 0px 16px 16px 0px rgba(0, 0, 0, 0.125);
