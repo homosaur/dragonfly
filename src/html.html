@@ -36,6 +36,7 @@
             <ul>
                 <li><a href="#type">type features</a></li>
                 <li><a href="#colors">colors</a></li>
+                <li><a href="#forms">forms</a></li>
             </ul>
         </nav>
     </header>
@@ -930,6 +931,168 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section>
+            <h2 id="forms" class="f7">forms <a href="#" onclick="toggleSection('forms-contents')" class="f2">(toggle collapse)</a></h2>
+            <div id="forms-contents">
+                <h3 class="f5">inputs</h3>
+                <form>
+                    <div class="margin-right-4 margin-bottom-4">
+                        <label for="text-input">Text Input</label><br>
+                        <input type="text" id="text-input" placeholder="Text input">
+                    </div>
+
+                    <div class="margin-right-4 margin-bottom-4">
+                        <label for="password-input">Password</label><br>
+                        <input type="password" id="password-input" placeholder="Password">
+                    </div>
+
+                    <div class="margin-right-4 margin-bottom-4">
+                        <label for="number-input">Number</label><br>
+                        <input type="number" id="number-input" placeholder="42">
+                    </div>
+
+                    <div class="margin-right-4 margin-bottom-4">
+                        <label for="email-input">Email</label><br>
+                        <input type="email" id="email-input" placeholder="email@example.com">
+                    </div>
+
+                    <div class="margin-right-4 margin-bottom-4">
+                        <label for="tel-input">Telephone</label><br>
+                        <input type="tel" id="tel-input" placeholder="555-0123">
+                    </div>
+
+                    <div class="margin-right-4 margin-bottom-4">
+                        <label for="url-input">URL</label><br>
+                        <input type="url" id="url-input" placeholder="https://example.com">
+                    </div>
+
+                    <div class="margin-right-4 margin-bottom-4">
+                        <label for="search-input">Search</label><br>
+                        <input type="search" id="search-input" placeholder="Search...">
+                    </div>
+
+                    <div class="margin-right-4 margin-bottom-4">
+                        <label for="date-input">Date</label><br>
+                        <input type="date" id="date-input">
+                    </div>
+
+                    <div class="margin-right-4 margin-bottom-4">
+                        <label for="time-input">Time</label><br>
+                        <input type="time" id="time-input">
+                    </div>
+
+                    <div class="margin-right-4 margin-bottom-4">
+                        <label for="datetime-input">DateTime</label><br>
+                        <input type="datetime-local" id="datetime-input">
+                    </div>
+
+                    <div class="margin-right-4 margin-bottom-4">
+                        <label for="month-input">Month</label><br>
+                        <input type="month" id="month-input">
+                    </div>
+
+                    <div class="margin-right-4 margin-bottom-4">
+                        <label for="week-input">Week</label><br>
+                        <input type="week" id="week-input">
+                    </div>
+
+                    <div class="margin-right-4 margin-bottom-4">
+                        <label for="color-input">Color</label><br>
+                        <input type="color" id="color-input">
+                    </div>
+
+                    <div class="margin-right-4 margin-bottom-4">
+                        <label for="range-input">Range</label><br>
+                        <input type="range" id="range-input" min="0" max="100">
+                    </div>
+
+                    <div class="margin-right-4 margin-bottom-4">
+                        <label for="file-input">File</label><br>
+                        <input type="file" id="file-input">
+                    </div>
+
+                    <div class="margin-right-4 margin-bottom-4">
+                        <label>Radio Buttons</label><br>
+                        <input type="radio" id="radio1" name="radio-group" value="1">
+                        <label for="radio1">Option 1</label>
+                        <input type="radio" id="radio2" name="radio-group" value="2">
+                        <label for="radio2">Option 2</label>
+                    </div>
+
+                    <div class="margin-right-4 margin-bottom-4">
+                        <label>Checkboxes</label><br>
+                        <input type="checkbox" id="checkbox1" name="checkbox1">
+                        <label for="checkbox1">Check 1</label>
+                        <input type="checkbox" id="checkbox2" name="checkbox2">
+                        <label for="checkbox2">Check 2</label>
+                    </div>
+
+                    <div class="margin-right-4 margin-bottom-4">
+                        <label for="textarea">Textarea</label><br>
+                        <textarea id="textarea" rows="3" cols="30" placeholder="Multiple lines of text"></textarea>
+                    </div>
+                </form>
+
+                <h3 class="f5">other</h3>
+                <div class="margin-right-4 margin-bottom-4">
+                    <label for="select">Select Dropdown</label><br>
+                    <select id="select">
+                        <option value="" disabled selected>Choose an option</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>
+                </div>
+
+                <div class="margin-right-4 margin-bottom-4">
+                    <label for="multiselect">Multiple Select</label><br>
+                    <select id="multiselect" multiple>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                    </select>
+                </div>
+
+                <div class="margin-right-4 margin-bottom-4">
+                    <label for="datalist">Datalist</label><br>
+                    <input list="options" id="datalist" name="datalist">
+                    <datalist id="options">
+                        <option value="Option 1">
+                        <option value="Option 2">
+                        <option value="Option 3">
+                    </datalist>
+                </div>
+
+                <div class="margin-right-4 margin-bottom-4">
+                    <label for="fieldset">Grouped Fields</label><br>
+                    <fieldset id="fieldset">
+                        <legend>Personal Info</legend>
+                        <input type="text" placeholder="First name">
+                        <input type="text" placeholder="Last name">
+                    </fieldset>
+                </div>
+
+                <div class="margin-right-4 margin-bottom-4">
+                    <label for="meter">Meter</label><br>
+                    <meter id="meter" min="0" max="100" value="70" low="33" high="66" optimum="80">100%</meter>
+                </div>
+
+                <div class="margin-right-4 margin-bottom-4">
+                    <label for="progress">Progress</label><br>
+                    <progress id="progress" max="100" value="70">70%</progress>
+                </div>
+
+                <div class="margin-right-4 margin-bottom-4">
+                    <label for="output">Output</label><br>
+                    <output id="output" name="result">Calculation result</output>
+                </div>
+
+                <h3 class="f5">supported inline form elements</h3>
+
+                <h3 class="f5">buttons</h3>
+                
             </div>
         </section>
     </main>

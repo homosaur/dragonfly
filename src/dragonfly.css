@@ -40,7 +40,7 @@ Typography
 @import "modules/_links.css";
 @import "modules/_spacing.css";
 @import "modules/_lists.css";
-
+@import "modules/_blockquote.css";
 /*
 Layout
 */
@@ -57,6 +57,12 @@ Colors and Decorators
 */
 @import "modules/_colors.css";
 @import "modules/_borders.css";
+
+/*
+Forms and buttons
+*/
+@import "modules/_forms.css";
+@import "modules/_buttons.css";
 
 /*
 Debugging becomes easier if you first admit that you are the problem
