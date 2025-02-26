@@ -181,13 +181,31 @@ meter {
     -webkit-appearance: none; /* Reset appearance */
     appearance: none;
 
-    &::-webkit-meter-bar {
-        background: none; /* Required to get rid of the default background property */
+    &::-webkit-meter-bar,
+    &::-moz-meter-bar {
+        height: 25px;
+        /* background: none; */
         background-color: var(--shade-9);
     }
 
-    &::-webkit-meter-optimum-value {
+    &::-webkit-meter-optimum-value,
+    &::-moz-meter-optimum-value {
         background-image: linear-gradient(90deg, var(--blue-5) 0%, var(--blue-5) 100%);
+    }
+
+    &::-webkit-meter-suboptimum-value,
+    &::-moz-meter-suboptimum-value {
+        background-image: linear-gradient(90deg, var(--red-5) 0%, var(--red-5) 100%);
+    }
+}
+
+/* 
+a hack for firefox since you can't color background. this is a better
+starting point i guess.
+*/
+@supports (-moz-appearance: none) {
+    meter {
+        border: 1px solid var(--shade-9);
     }
 }
 
@@ -196,7 +214,9 @@ progress {
     min-width: 200px;
     height: 25px;
     accent-color: var(--blue-5);
-    
+    border: 1px solid var(--shade-9);
+    -moz-border: none;
+
     &::-webkit-progress-value {
         background-color: var(--blue-5);
     }

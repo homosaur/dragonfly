@@ -6,10 +6,88 @@
 
     <link rel="stylesheet" href="/dragonfly.min.css">
 </head>
-<body>
-    <h1>dragonfly(eye)</h1>
-    <ul>
-        <li><a href="/html.html">html demo</a></li>
-    </ul>
+<body class="didone ma4 f4 backgroundcolor-gold-11">
+    <header>
+        <h1 class="f11 mw lhs mb4">dragonfly, a cascading style system for humans</h1>
+        <nav class="mb6">
+            <ul>
+                <li><a href="/html.html">html kitchen sink demo (in progress)</a></li>
+                <li><a href="https://sr.ht/~homosaur/dragonfly/">
+                    source code repository</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="m mb6">
+        <p>
+            you've reached the office of dragonfly, a cascading style system
+            meant for writers of html. dragonfly is not intended to be a
+            replacement for big css frameworks like bootstrap or god forbid,
+            tailwind, but an update to the abandoned css framework
+            <a href="https://tachyons.io">tachyons</a>.
+        </p>
+        <p>
+            tachyons had a lot of good ideas but felt like it couldn't help
+            itself from becoming a framework and for no small reason this is why
+            version 5 failed. dragonfly will only include styling for the basic
+            html elements and may include some basic patterns that you can build
+            components from, but will not include any pre-built components. it's
+            meant, again, for writers of html.
+        </p>
+        <p>
+            the original inspiration for dragonfly was writing static sites for
+            indieweb projects using the static site generator
+            <a href="https://11ty.dev">eleventy (11ty)</a>. 11ty is an amazing
+            tool that provides a way to extend simple development techniques
+            into larger scale projects. i found myself falling in love with the
+            simplicity of regular html and mostly grumpy about writing css.
+        </p>
+        <p>
+            dragonfly is named for the
+            <a href="https://www.dragonfly-eye.online/">dragonfly-eye</a>, an 
+            image library project brought to you by the folks who run
+            <a href="https://boot-boyz.biz">boot boyz</a> t-shirt project and
+            the <a href="https://now-time.biz">now time</a> journal. it uses
+            extensive code from the
+            <a href="https://github.com/tachyons-css/tachyons-verbose/">tachyons-verbose</a>
+            project.
+        </p>
+        <h2 class="f6 mt4 lhh">writers should not be using css frameworks</h2>
+        <p>
+            it feels like the absolute antethesis of the
+            <a href="https://indieweb.org/principles">indieweb principles</a> to
+            take your beautiful handcrafted html and slap a cold corporate css 
+            framework on it, making your site look and feel like a million
+            others on the web. with the advent of ai programming, this is just 
+            going to get worse. so much dogcrap react code is coming for users
+            and the writers of the indieweb have a chance to fight against that.
+            dragonfly says fuck meta, fuck big tech, and fuck 10 layers of
+            typescript tooling that you don't need for a blog, cv, or a thousand
+            other personal applications.
+        </p>
+        <p>
+            this is not a screed against css. i love css. i think it's an
+            amazing technology but so much has changed since the advent of big 
+            framework. i think that probably a lot of the popularity of css 
+            frameworks came from the difficulty of writing layout responsively.
+            since then, we've gained tools like css grid and flexbox that can 
+            make layouts really very simple to write. this is the reason why 
+            while dragonfly contains classes for flexbox and grid, it does not 
+            actually include layout classes. write a layout using grid-templates 
+            and do all your responsive layout there. you don't need an a hand to
+            hold to do this. if you do, there's
+            <a href="https://grid.layoutit.com/">tools</a> than can help you.
+        </p>
+        <p>
+            most people making personal and indie projects do not need a css
+            framework per se, they need a system for getting more from html.
+            dragonfly is that system.
+        </p>
+        <p>
+            please collaborate with me on this project. despite seeming very
+            opinionated, i'm actually very open to suggestions and feedback. the
+            best way is to simply send a path or open up an issue on the
+            <a href="https://sr.ht/~homosaur/dragonfly/">sourcehut repo</a>.
+        </p>
+    </div>
 </body>
 </html>
