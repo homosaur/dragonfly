@@ -1,0 +1,94 @@
+/* 
+ * Tables
+ *
+ * Styles for tables, including:
+ * - Basic table structure and appearance
+ * - Table variants (striped, bordered, hover effects)
+ * - Responsive table behaviors
+ * - Column and row styling utilities
+ */
+
+/* Base table styling */
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-collapse: collapse;
+}
+
+/* Table cells */
+.table-cell-padding-1 th,
+.table-cell-padding-1 td { padding: 0.25rem; }
+.table-cell-padding-2 th,
+.table-cell-padding-2 td { padding: 0.5rem; }
+.table-cell-padding-3 th,
+.table-cell-padding-3 td { padding: 0.75rem; }
+.table-cell-padding-4 th,
+.table-cell-padding-4 td { padding: 1rem; }
+.table-cell-padding-5 th,
+.table-cell-padding-5 td { padding: 1.5rem; }
+
+/* Table borders */
+.table-bordered { border: 1px solid var(--color-gray-3); }
+.table-bordered th,
+.table-bordered td { border: 1px solid var(--color-gray-3); }
+
+.table-borderless th,
+.table-borderless td { border: 0; }
+
+/* Alignment */
+.table-align-top th,
+.table-align-top td { vertical-align: top; }
+.table-align-middle th,
+.table-align-middle td { vertical-align: middle; }
+.table-align-bottom th,
+.table-align-bottom td { vertical-align: bottom; }
+
+/* Table variants */
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: var(--color-gray-1);
+}
+
+.table-hover tbody tr:hover {
+  background-color: var(--color-gray-2);
+}
+
+/* Table header styling */
+.table-header-light th {
+  background-color: var(--color-gray-1);
+  color: var(--color-gray-9);
+  font-weight: 600;
+}
+
+.table-header-dark th {
+  background-color: var(--color-gray-9);
+  color: var(--color-gray-1);
+  font-weight: 600;
+}
+
+/* Responsive tables */
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Compact tables */
+.table-compact th,
+.table-compact td {
+  padding: 0.25rem;
+}
+
+/* Table column width utilities */
+.table-column-width-auto { width: auto; }
+.table-column-width-25 { width: 25%; }
+.table-column-width-33 { width: 33.333%; }
+.table-column-width-50 { width: 50%; }
+.table-column-width-100 { width: 100%; }
+
+/* Table row and cell utilities */
+.table-row-divider tr:not(:last-child) { 
+  border-bottom: 1px solid var(--color-gray-3); 
+}
+
+.table-cell-nowrap { white-space: nowrap; }

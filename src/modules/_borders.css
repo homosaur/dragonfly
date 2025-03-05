@@ -1,8 +1,8 @@
-.border-all     { border-style: solid; border-width: var( --border-width, 1px ); }
-.border-top     { border-top-style: solid; border-top-width: var( --border-width, 1px ); }
-.border-right   { border-right-style: solid; border-right-width: var( --border-width, 1px ); }
-.border-bottom  { border-bottom-style: solid; border-bottom-width: var( --border-width, 1px ); }
-.border-left    { border-left-style: solid; border-left-width: var( --border-width, 1px ); }
+.border-all     { border-style: solid; border-width: var( --border-width); }
+.border-top     { border-top-style: solid; border-top-width: var( --border-width); }
+.border-right   { border-right-style: solid; border-right-width: var( --border-width); }
+.border-bottom  { border-bottom-style: solid; border-bottom-width: var( --border-width); }
+.border-left    { border-left-style: solid; border-left-width: var( --border-width); }
 .border-none    { border-style: none; border-width: 0; }
 
 .borderstyle-dotted  { border-style: dotted; }

@@ -1,3 +1,4 @@
+- add font weights
 - add buttons
 - add tables
 - add media (images, videos, audio, figures, etc.)
@@ -5,6 +6,3 @@
 - add inline forms and lists
 - missing modules:
     - text elements - blockquotes, code, long-form typography, etc.
-    - position
-    - coordinates
-    - aspect ratios

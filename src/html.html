@@ -315,6 +315,43 @@
                     <h4 class="f4">strikethrough</h4>
                     <p class="st">Lorem ipsum dolor sit amet.</p>                
                 </div>
+                <h3 class="f5 pt5">longform text</h3>
+                <div class="longform-text m">
+                    <h2 class="f6 fw-900 mb2">a heading two</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore 
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+                    aliquip ex ea commodo consequat.</p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
+                    laborum.</p>
+                    <h3 class="f5 fw-800 mt3 mb2">a heading three</h3>
+                    <p>Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo 
+                    pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris.</p>
+                    <p>Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis 
+                    risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id 
+                    tincidunt sapien risus a quam.</p>
+                    <p>Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, 
+                    aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl 
+                    adipiscing sapien, sed malesuada diam lacus eget erat.</p>
+                    <h4 class="f4 fw-700 mt3 mb2">a heading four</h4>
+                    <p>Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis
+                    risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id
+                    tincidunt sapien risus a quam.</p>
+                    <p>Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem,
+                    aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl
+                    adipiscing sapien, sed malesuada diam lacus eget erat.</p>
+                    <h5 class="f3 fw-600 mv2">a heading five</h5>
+                    <p>Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis
+                    risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id
+                    tincidunt sapien risus a quam.</p>
+                    <p>Maecenas fermentum consequat mi. Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem,
+                    aliquet nec, commodo eget, consequat quis, neque. Aliquam faucibus, elit ut dictum aliquet, felis nisl
+                    adipiscing sapien, sed malesuada diam lacus eget erat.</p>
+                    <h6 class="f2 fw-600 mv2">the incredibly rare h6, a thing you never see</h6>
+                    <p>Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis
+                    risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id
+                    tincidunt sapien risus a quam.</p>
+                </div>
             </div>
         </section>
         <section>
@@ -934,7 +971,7 @@
             </div>
         </section>
         <section>
-            <h2 id="forms" class="f7">forms <a href="#" onclick="toggleSection('forms-contents')" class="f2">(toggle collapse)</a></h2>
+            <h2 id="forms" class="f7">forms <a href="#" onclick="toggleCollapse('forms-contents')" class="f2">(toggle collapse)</a></h2>
             <div id="forms-contents">
                 <h3 class="f5">inputs</h3>
                 <form>
@@ -1092,7 +1129,171 @@
                 <h3 class="f5">supported inline form elements</h3>
 
                 <h3 class="f5">buttons</h3>
-                
+                <div>
+                    <input type="submit" value="submit">
+                    <input type="reset" value="reset">
+                    <input type="button" value="input button">
+                    <button>button element</button>
+                    <a href="#" class="button">anchor "button"</a>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2 id="tables" class="f7">tables <a href="#" onclick="toggleCollapse('tables-contents')" class="f2">(toggle collapse)</a></h2>
+            <div id="tables-contents">
+                <h3 class="f5">basic table</h3>
+                <table class="table table-cell-padding-3 margin-bottom-4 table-row-divider">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Office</th>
+                            <th>Age</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tiger Nixon</td>
+                            <td>System Architect</td>
+                            <td>Edinburgh</td>
+                            <td>61</td>
+                        </tr>
+                        <tr>
+                            <td>Garrett Winters</td>
+                            <td>Accountant</td>
+                            <td>Tokyo</td>
+                            <td>63</td>
+                        </tr>
+                        <tr>
+                            <td>Ashton Cox</td>
+                            <td>Junior Technical Author</td>
+                            <td>San Francisco</td>
+                            <td>66</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3 class="f5">bordered table</h3>
+                <table class="table table-bordered table-cell-padding-3 margin-bottom-4">
+                    <thead>
+                        <tr class="table-header-light">
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Office</th>
+                            <th>Age</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tiger Nixon</td>
+                            <td>System Architect</td>
+                            <td>Edinburgh</td>
+                            <td>61</td>
+                        </tr>
+                        <tr>
+                            <td>Garrett Winters</td>
+                            <td>Accountant</td>
+                            <td>Tokyo</td>
+                            <td>63</td>
+                        </tr>
+                        <tr>
+                            <td>Ashton Cox</td>
+                            <td>Junior Technical Author</td>
+                            <td>San Francisco</td>
+                            <td>66</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3 class="f5">striped table with hover effect</h3>
+                <table class="table table-striped table-hover table-cell-padding-3 margin-bottom-4 table-row-divider">
+                    <thead>
+                        <tr class="table-header-dark">
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Office</th>
+                            <th>Age</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tiger Nixon</td>
+                            <td>System Architect</td>
+                            <td>Edinburgh</td>
+                            <td>61</td>
+                        </tr>
+                        <tr>
+                            <td>Garrett Winters</td>
+                            <td>Accountant</td>
+                            <td>Tokyo</td>
+                            <td>63</td>
+                        </tr>
+                        <tr>
+                            <td>Ashton Cox</td>
+                            <td>Junior Technical Author</td>
+                            <td>San Francisco</td>
+                            <td>66</td>
+                        </tr>
+                        <tr>
+                            <td>Cedric Kelly</td>
+                            <td>Senior Javascript Developer</td>
+                            <td>Edinburgh</td>
+                            <td>22</td>
+                        </tr>
+                        <tr>
+                            <td>Airi Satou</td>
+                            <td>Accountant</td>
+                            <td>Tokyo</td>
+                            <td>33</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3 class="f5">responsive table</h3>
+                <div class="table-responsive">
+                    <table class="table table-cell-padding-3 table-bordered">
+                        <thead>
+                            <tr class="table-header-light">
+                                <th>Name</th>
+                                <th>Position</th>
+                                <th>Office</th>
+                                <th>Age</th>
+                                <th>Start date</th>
+                                <th>Salary</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Tiger Nixon</td>
+                                <td>System Architect</td>
+                                <td>Edinburgh</td>
+                                <td>61</td>
+                                <td>2011/04/25</td>
+                                <td>$320,800</td>
+                                <td>Active</td>
+                            </tr>
+                            <tr>
+                                <td>Garrett Winters</td>
+                                <td>Accountant</td>
+                                <td>Tokyo</td>
+                                <td>63</td>
+                                <td>2011/07/25</td>
+                                <td>$170,750</td>
+                                <td>Active</td>
+                            </tr>
+                            <tr>
+                                <td>Ashton Cox</td>
+                                <td>Junior Technical Author</td>
+                                <td>San Francisco</td>
+                                <td>66</td>
+                                <td>2009/01/12</td>
+                                <td>$86,000</td>
+                                <td>Inactive</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </section>
     </main>

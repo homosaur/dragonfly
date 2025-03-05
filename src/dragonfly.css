@@ -29,28 +29,26 @@ The Variability of Natural Soils
 @import "lib/_variables.css";
 
 /*
-Modularity Conjecture for Elliptic Curves
-*/
-
-/*
 Typography
 */
-@import "modules/_type.css";
-@import "modules/_fonts.css";
-@import "modules/_links.css";
-@import "modules/_spacing.css";
-@import "modules/_lists.css";
-@import "modules/_text-elements.css";
+@import "type/_type.css";
+@import "type/_fonts.css";
+@import "type/_links.css";
+@import "type/_spacing.css";
+@import "type/_lists.css";
+@import "type/_text-elements.css";
+@import "type/_tables.css";
+
 /*
 Layout
 */
-@import "modules/_display.css";
-@import "modules/_grid.css";
-@import "modules/_flexbox.css";
-@import "modules/_position.css";
-@import "modules/_coordinates.css";
-@import "modules/_aspect-ratios.css";
-@import "modules/_floats.css";
+@import "layout/_display.css";
+@import "layout/_grid.css";
+@import "layout/_flexbox.css";
+@import "layout/_position.css";
+@import "layout/_coordinates.css";
+@import "layout/_aspect-ratios.css";
+@import "layout/_floats.css";
 
 /*
 Colors and Decorators

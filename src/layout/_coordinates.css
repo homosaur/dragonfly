@@ -1,0 +1,22 @@
+.top-0         { top:    0; }
+.right-0       { right:  0; }
+.bottom-0      { bottom: 0; }
+.left-0        { left:   0; }
+
+.top-1         { top:    var(--size, 1rem); }
+.right-1       { right:  var(--size, 1rem); }
+.bottom-1      { bottom: var(--size, 1rem); }
+.left-1        { left:   var(--size, 1rem); }
+.top-2         { top:    calc(var(--size, 1rem) * 2); }
+.right-2       { right:  calc(var(--size, 1rem) * 2); }
+.bottom-2      { bottom: calc(var(--size, 1rem) * 2); }
+.left-2        { left:   calc(var(--size, 1rem) * 2); }
+
+.top-minus1    { top:    calc(var(--size, 1rem) * -1); }
+.right-minus1  { right:  calc(var(--size, 1rem) * -1); }
+.bottom-minus1 { bottom: calc(var(--size, 1rem) * -1); }
+.left-minus1   { left:   calc(var(--size, 1rem) * -1); }
+.top-minus2    { top:    calc(var(--size, 1rem) * -2); }
+.right-minus2  { right:  calc(var(--size, 1rem) * -2); }
+.bottom-minus2 { bottom: calc(var(--size, 1rem) * -2); }
+.left-minus2   { left:   calc(var(--size, 1rem) * -2); }

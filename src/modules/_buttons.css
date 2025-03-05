@@ -1,0 +1,27 @@
+/*
+buttons are opinioned but this is a nightmare:
+https://tachyons.io/components/buttons/basic-rounded-extra-small/index.html
+
+do you want to write this? no, no one does.
+
+just override the styles here if needed.
+*/
+
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+a.button {
+    /* styles for button element */
+    display: inline-block;
+    border: var(--border-width) var(--border-style) var(--link-color);
+    color: var(--link-color);
+    text-decoration: none;
+    padding: var(--space-2) var(--space-4);
+
+    &:hover {
+        /* styles for button element on hover */
+        color: var(--link-color-hover);
+        border-color: var(--link-color-hover);
+    }
+}

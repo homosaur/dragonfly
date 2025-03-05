@@ -1,0 +1,9 @@
+/*
+this is for articles and other longform type text. i've optimized this using
+basic guidelines from the elements of typographic style.
+*/
+.longform-text {
+    p + p {
+        text-indent: 1.5em;
+    }
+}

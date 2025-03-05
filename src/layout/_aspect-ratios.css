@@ -1,0 +1,17 @@
+.aspectratio-16x9 { aspect-ratio: 16 / 9; }
+.aspectratio-9x16 { aspect-ratio: 9 / 16; }
+
+.aspectratio-4x3 {  aspect-ratio: 4 / 3; }
+.aspectratio-3x4 {  aspect-ratio: 3 / 4; }
+
+.aspectratio-6x4 {  aspect-ratio: 6 / 4; }
+.aspectratio-4x6 {  aspect-ratio: 4 / 6; }
+
+.aspectratio-8x5 {  aspect-ratio: 8 / 5; }
+.aspectratio-5x8 {  aspect-ratio: 5 / 8; }
+
+.aspectratio-7x5 {  aspect-ratio: 7 / 5; }
+.aspectratio-5x7 {  aspect-ratio: 5 / 7; }
+
+.aspectratio-square, 
+.aspectratio-1x1 {  aspect-ratio: 1 / 1; }
