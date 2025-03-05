@@ -1,8 +1,6 @@
-- add font weights
-- add buttons
-- add tables
 - add media (images, videos, audio, figures, etc.)
 - add label-type spans
 - add inline forms and lists
 - missing modules:
-    - text elements - blockquotes, code, long-form typography, etc.
+    - blockquote
+    - code block
