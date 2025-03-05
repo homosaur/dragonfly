@@ -242,6 +242,18 @@
     --font-size-10: 8rem;
     --font-size-11: 11rem;
 
+    --font-weight-normal: normal;
+    --font-weight-bold: bold;
+    --font-weight-100: 100;
+    --font-weight-200: 200;
+    --font-weight-300: 300;
+    --font-weight-400: 400;
+    --font-weight-500: 500;
+    --font-weight-600: 600;
+    --font-weight-700: 700;
+    --font-weight-800: 800;
+    --font-weight-900: 900;
+
     --line-height-solid: 1;
     --line-height-heading: 1.25;
     --line-height-body: 1.5;
@@ -323,7 +335,7 @@
 
     /* l i n k s */
     --link-color: var(--blue-5);
-    --link-decoration-color: var(--red-5);
+    --link-decoration-color: var(--blue-4);
     --link-decoration-thickness: .125em;
     --link-underline-offset: .09735em;
     --link-color-hover: var(--red-5);

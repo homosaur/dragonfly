@@ -23,15 +23,15 @@
 .maxwidth-measure-wide, .mw     { max-width: var(--measure-wide);   }
 .maxwidth-measure-narrow, .mn   { max-width: var(--measure-narrow); }
 
-.italic, .i          { font-style: italic;             }
-.normal, .n          { font-style: normal;             }
-.underline, .u       { text-decoration: underline;     }
-.no-decoration, .nd  { text-decoration: none;          }
-.bold, .b            { font-weight: bold;              }
-.strikethrough, .st  { text-decoration: line-through;  }
-.uppercase, .uc      { text-transform: uppercase;      }
-.lowercase, .lc      { text-transform: lowercase;      }
-.capitalize, .cap    { text-transform: capitalize;     }
+.italic, .i          { font-style: italic;            }
+.normal, .n          { font-style: normal;            }
+.underline, .u       { text-decoration: underline;    }
+.no-decoration, .nd  { text-decoration: none;         }
+.bold, .b            { font-weight: bold;             }
+.strikethrough, .st  { text-decoration: line-through; }
+.uppercase, .uc      { text-transform: uppercase;     }
+.lowercase, .lc      { text-transform: lowercase;     }
+.capitalize, .cap    { text-transform: capitalize;    }
 
 .text-center, .tc     { text-align: center;    }
 .text-left, .tl       { text-align: left;      }

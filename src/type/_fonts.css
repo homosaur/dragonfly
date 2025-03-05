@@ -16,12 +16,12 @@
 
 .normal, .fontweight-normal   { font-weight: normal; }
 .b, .fontweight-bold          { font-weight: bold; }
-.fontweight-100, .fw-100      { font-weight: 100; }
-.fontweight-200, .fw-200      { font-weight: 200; }
-.fontweight-300, .fw-300      { font-weight: 300; }
-.fontweight-400, .fw-400      { font-weight: 400; }
-.fontweight-500, .fw-500      { font-weight: 500; }
-.fontweight-600, .fw-600      { font-weight: 600; }
-.fontweight-700, .fw-700      { font-weight: 700; }
-.fontweight-800, .fw-800      { font-weight: 800; }
-.fontweight-900, .fw-900      { font-weight: 900; }
+.fontweight-100, .fw-100      { font-weight: var(--font-weight-100); }
+.fontweight-200, .fw-200      { font-weight: var(--font-weight-200); }
+.fontweight-300, .fw-300      { font-weight: var(--font-weight-300); }
+.fontweight-400, .fw-400      { font-weight: var(--font-weight-400); }
+.fontweight-500, .fw-500      { font-weight: var(--font-weight-500); }
+.fontweight-600, .fw-600      { font-weight: var(--font-weight-600); }
+.fontweight-700, .fw-700      { font-weight: var(--font-weight-700); }
+.fontweight-800, .fw-800      { font-weight: var(--font-weight-800); }
+.fontweight-900, .fw-900      { font-weight: var(--font-weight-900); }

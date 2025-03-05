@@ -10,9 +10,13 @@
 
 /* Base table styling */
 .table {
-  width: 100%;
-  margin-bottom: 1rem;
-  border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: var(--font-weight-bold);
 }
 
 /* Table cells */
@@ -28,9 +32,9 @@
 .table-cell-padding-5 td { padding: 1.5rem; }
 
 /* Table borders */
-.table-bordered { border: 1px solid var(--color-gray-3); }
+.table-bordered { border: 1px solid var(--gray-3); }
 .table-bordered th,
-.table-bordered td { border: 1px solid var(--color-gray-3); }
+.table-bordered td { border: 1px solid var(--gray-3); }
 
 .table-borderless th,
 .table-borderless td { border: 0; }
@@ -44,39 +48,39 @@
 .table-align-bottom td { vertical-align: bottom; }
 
 /* Table variants */
-.table-striped tbody tr:nth-of-type(odd) {
-  background-color: var(--color-gray-1);
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: var(--gray-1);
+    color: var(--gray-10);
 }
 
 .table-hover tbody tr:hover {
-  background-color: var(--color-gray-2);
+    background-color: var(--blue-8);
+    color: var(--gray-1);
 }
 
 /* Table header styling */
 .table-header-light th {
-  background-color: var(--color-gray-1);
-  color: var(--color-gray-9);
-  font-weight: 600;
+    background-color: var(--gray-9);
+    color: var(--gray-1);
 }
 
 .table-header-dark th {
-  background-color: var(--color-gray-9);
-  color: var(--color-gray-1);
-  font-weight: 600;
+    background-color: var(--gray-1);
+    color: var(--gray-9);
 }
 
 /* Responsive tables */
 .table-responsive {
-  display: block;
-  width: 100%;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 /* Compact tables */
 .table-compact th,
 .table-compact td {
-  padding: 0.25rem;
+    padding: 0.25rem;
 }
 
 /* Table column width utilities */
@@ -88,7 +92,7 @@
 
 /* Table row and cell utilities */
 .table-row-divider tr:not(:last-child) { 
-  border-bottom: 1px solid var(--color-gray-3); 
+    border-bottom: 1px solid var(--gray-3); 
 }
 
 .table-cell-nowrap { white-space: nowrap; }

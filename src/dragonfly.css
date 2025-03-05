@@ -37,7 +37,7 @@ Typography
 @import "type/_spacing.css";
 @import "type/_lists.css";
 @import "type/_text-elements.css";
-@import "type/_tables.css";
+@import "modules/_tables.css";
 
 /*
 Layout
