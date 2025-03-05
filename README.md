@@ -1,5 +1,7 @@
 # dragonfly(eye) cascading style system
 
+https://d-r-a-g-o-n-f-l-y.org
+
 influenced by tachyons-verbose and various bespoke css. this is meant to be for
 humans to write code but it's probably good for the machines too, idk. i do not
 care at all about legacy browser support, if it's new and over 90%, i'm using
