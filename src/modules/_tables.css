@@ -60,13 +60,13 @@ th {
 
 /* Table header styling */
 .table-header-light th {
-    background-color: var(--gray-9);
+    background-color: var(--gray-10);
     color: var(--gray-1);
 }
 
 .table-header-dark th {
     background-color: var(--gray-1);
-    color: var(--gray-9);
+    color: var(--gray-10);
 }
 
 /* Responsive tables */
