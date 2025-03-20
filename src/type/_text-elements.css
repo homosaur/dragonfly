@@ -19,3 +19,18 @@ b, strong {
 i, em {
     font-style: italic;
 }
+
+sub, sup {
+    position: relative;
+    font-size: 0.5em;
+    line-height: 0;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.75em;
+}
+
+sub {
+    bottom: -0.25em;
+}
