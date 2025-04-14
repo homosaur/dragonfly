@@ -227,8 +227,8 @@
     --cyan-10: #b4f5f9;
     --cyan-11: #e2ffff;
 
-
     /* t y p o g r a p h y */
+    /* old broke bullshit
     --font-size-0: 0.75rem;
     --font-size-1: 0.875rem;
     --font-size-2: 1rem;
@@ -240,7 +240,18 @@
     --font-size-8: 4rem;
     --font-size-9: 6rem;
     --font-size-10: 8rem;
-    --font-size-11: 11rem;
+    --font-size-11: 11rem; */
+
+    /* new hotness - https://utopia.fyi */
+    --step--1: clamp(0.8rem, 0.7725rem + 0.1377vw, 0.9377rem);
+    --step-0: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
+    --step-1: clamp(1.25rem, 1.1668rem + 0.4163vw, 1.6663rem);
+    --step-2: clamp(1.5625rem, 1.4308rem + 0.6586vw, 2.2211rem);
+    --step-3: clamp(1.9531rem, 1.7516rem + 1.0076vw, 2.9607rem);
+    --step-4: clamp(2.4414rem, 2.1404rem + 1.5053vw, 3.9467rem);
+    --step-5: clamp(3.0518rem, 2.6099rem + 2.2092vw, 5.2609rem);
+    --step-6: clamp(3.8147rem, 3.1751rem + 3.1981vw, 7.0128rem);
+    --step-7: clamp(4.7684rem, 3.8524rem + 4.5797vw, 9.3481rem);
 
     --font-weight-normal: normal;
     --font-weight-bold: bold;
@@ -266,9 +277,8 @@
     --measure-wide: 80ch;
     --measure-narrow: 45ch;
 
-
     /* s p a c i n g */
-    --space-0: 0;
+    /* --space-0: 0;
     --space-1: 4px;
     --space-2: 8px;
     --space-3: 16px;
@@ -276,8 +286,28 @@
     --space-5: 64px;
     --space-6: 128px;
     --space-7: 256px;
-    --space-8: 512px;
+    --space-8: 512px; */
 
+    /* new hotness https://utopia.fyi */
+    --space-3xs: clamp(0.25rem, 0.2375rem + 0.0625vw, 0.3125rem);
+    --space-2xs: clamp(0.5rem, 0.475rem + 0.125vw, 0.625rem);
+    --space-xs: clamp(0.75rem, 0.7125rem + 0.1875vw, 0.9375rem);
+    --space-s: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
+    --space-m: clamp(1.5rem, 1.425rem + 0.375vw, 1.875rem);
+    --space-l: clamp(2rem, 1.9rem + 0.5vw, 2.5rem);
+    --space-xl: clamp(3rem, 2.85rem + 0.75vw, 3.75rem);
+    --space-2xl: clamp(4rem, 3.8rem + 1vw, 5rem);
+    --space-3xl: clamp(6rem, 5.7rem + 1.5vw, 7.5rem);
+
+    /* One-up pairs */
+    --space-3xs-2xs: clamp(0.25rem, 0.175rem + 0.375vw, 0.625rem);
+    --space-2xs-xs: clamp(0.5rem, 0.4125rem + 0.4375vw, 0.9375rem);
+    --space-xs-s: clamp(0.75rem, 0.65rem + 0.5vw, 1.25rem);
+    --space-s-m: clamp(1rem, 0.825rem + 0.875vw, 1.875rem);
+    --space-m-l: clamp(1.5rem, 1.3rem + 1vw, 2.5rem);
+    --space-l-xl: clamp(2rem, 1.65rem + 1.75vw, 3.75rem);
+    --space-xl-2xl: clamp(3rem, 2.6rem + 2vw, 5rem);
+    --space-2xl-3xl: clamp(4rem, 3.3rem + 3.5vw, 7.5rem);
 
     /* b o x   &   b u t t o n   d e c o r a t i n g */
     --border-radius-0: 0;
@@ -294,31 +324,40 @@
     --border-width-3: 4px;
     --border-width-4: 8px;
 
-    --box-shadow-0: 0px 1px 1px 0px hsla(0, 0%, 0%, 0.035),
-    0px 2px 2px 0px rgba(0, 0, 0, 0.125), 0px 4px 4px 0px rgba(0, 0, 0, 0.125),
-    0px 8px 8px 0px rgba(0, 0, 0, 0.125), 0px 16px 16px 0px rgba(0, 0, 0, 0.125);
-    --box-shadow-1: 0px 1px 1px 0px rgba(0, 0, 0, 0.15),
-    0px 2px 2px 0px rgba(0, 0, 0, 0.15), 0px 4px 4px 0px rgba(0, 0, 0, 0.15),
-    0px 8px 8px 0px rgba(0, 0, 0, 0.15);
-    --box-shadow-2: 0px 1px 1px 0px rgba(0, 0, 0, 0.11),
-    0px 2px 2px 0px rgba(0, 0, 0, 0.11), 0px 4px 4px 0px rgba(0, 0, 0, 0.11),
-    0px 8px 8px 0px rgba(0, 0, 0, 0.11), 0px 16px 16px 0px rgba(0, 0, 0, 0.11),
-    0px 32px 32px 0px rgba(0, 0, 0, 0.11);
-    --box-shadow-3: 0px 1px 1px 0px rgba(0, 0, 0, 0.25),
-    0px 2px 2px 0px rgba(0, 0, 0, 0.2), 0px 4px 4px 0px rgba(0, 0, 0, 0.15),
-    0px 8px 8px 0px rgba(0, 0, 0, 0.1), 0px 16px 16px 0px rgba(0, 0, 0, 0.05);
-    --box-shadow-4: 0px 1px 1px 0px rgba(0, 0, 0, 0.25),
-    0px 2px 2px 0px rgba(0, 0, 0, 0.2), 0px 4px 4px 0px rgba(0, 0, 0, 0.15),
-    0px 8px 8px 0px rgba(0, 0, 0, 0.1), 0px 16px 16px 0px rgba(0, 0, 0, 0.05);
-    --box-shadow-5: 0px 19px 38px 0px rgba(0, 0, 0, 0.08),
-    0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.16),
-    0px 8px 8px 0px rgba(0, 0, 0, 0.2);
+    --box-shadow-0:
+        0px 1px 1px 0px hsla(0, 0%, 0%, 0.035),
+        0px 2px 2px 0px rgba(0, 0, 0, 0.125),
+        0px 4px 4px 0px rgba(0, 0, 0, 0.125),
+        0px 8px 8px 0px rgba(0, 0, 0, 0.125),
+        0px 16px 16px 0px rgba(0, 0, 0, 0.125);
+    --box-shadow-1:
+        0px 1px 1px 0px rgba(0, 0, 0, 0.15),
+        0px 2px 2px 0px rgba(0, 0, 0, 0.15),
+        0px 4px 4px 0px rgba(0, 0, 0, 0.15), 0px 8px 8px 0px rgba(0, 0, 0, 0.15);
+    --box-shadow-2:
+        0px 1px 1px 0px rgba(0, 0, 0, 0.11),
+        0px 2px 2px 0px rgba(0, 0, 0, 0.11),
+        0px 4px 4px 0px rgba(0, 0, 0, 0.11),
+        0px 8px 8px 0px rgba(0, 0, 0, 0.11),
+        0px 16px 16px 0px rgba(0, 0, 0, 0.11),
+        0px 32px 32px 0px rgba(0, 0, 0, 0.11);
+    --box-shadow-3:
+        0px 1px 1px 0px rgba(0, 0, 0, 0.25), 0px 2px 2px 0px rgba(0, 0, 0, 0.2),
+        0px 4px 4px 0px rgba(0, 0, 0, 0.15), 0px 8px 8px 0px rgba(0, 0, 0, 0.1),
+        0px 16px 16px 0px rgba(0, 0, 0, 0.05);
+    --box-shadow-4:
+        0px 1px 1px 0px rgba(0, 0, 0, 0.25), 0px 2px 2px 0px rgba(0, 0, 0, 0.2),
+        0px 4px 4px 0px rgba(0, 0, 0, 0.15), 0px 8px 8px 0px rgba(0, 0, 0, 0.1),
+        0px 16px 16px 0px rgba(0, 0, 0, 0.05);
+    --box-shadow-5:
+        0px 19px 38px 0px rgba(0, 0, 0, 0.08),
+        0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+        0px 4px 4px 0px rgba(0, 0, 0, 0.16), 0px 8px 8px 0px rgba(0, 0, 0, 0.2);
 
     --box-shadow-border: inset 0px 0px 0px 1px currentColor;
     --box-shadow-border-light-overlay: inset 0px 0px 0px 1px
-    rgba(255, 255, 255, 0.13);
+        rgba(255, 255, 255, 0.13);
     --box-shadow-border-dark-overlay: inset 0px 1px 0px 1px rgba(0, 0, 0, 0.13);
-
 
     /* t i m i n g */
     --duration-0: 125ms;
@@ -332,12 +371,11 @@
     --easing-function-4: cubic-bezier(0.679, -0.474, 0.066, 1.394);
     --easing-function-5: steps(7, jump-none);
 
-
     /* l i n k s */
     --link-color: var(--blue-5);
     --link-decoration-color: var(--blue-4);
-    --link-decoration-thickness: .125em;
-    --link-underline-offset: .09735em;
+    --link-decoration-thickness: 0.125em;
+    --link-underline-offset: 0.09735em;
     --link-color-hover: var(--red-5);
     --link-decoration-color-hover: var(--red-5);
 }

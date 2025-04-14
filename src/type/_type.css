@@ -1,15 +1,12 @@
-.font-size-0, .f0   { font-size: var(--font-size-0);  }
-.font-size-1, .f1   { font-size: var(--font-size-1);  }
-.font-size-2, .f2   { font-size: var(--font-size-2);  }
-.font-size-3, .f3   { font-size: var(--font-size-3);  }
-.font-size-4, .f4   { font-size: var(--font-size-4);  }
-.font-size-5, .f5   { font-size: var(--font-size-5);  }
-.font-size-6, .f6   { font-size: var(--font-size-6);  }
-.font-size-7, .f7   { font-size: var(--font-size-7);  }
-.font-size-8, .f8   { font-size: var(--font-size-8);  }
-.font-size-9, .f9   { font-size: var(--font-size-9);  }
-.font-size-10, .f10 { font-size: var(--font-size-10); }
-.font-size-11, .f11 { font-size: var(--font-size-11); }
+.font-size-0, .f0   { font-size: var(--step--1);  }
+.font-size-1, .f1   { font-size: var(--step-0);  }
+.font-size-2, .f2   { font-size: var(--step-1);  }
+.font-size-3, .f3   { font-size: var(--step-2);  }
+.font-size-4, .f4   { font-size: var(--step-3);  }
+.font-size-5, .f5   { font-size: var(--step-4);  }
+.font-size-6, .f6   { font-size: var(--step-5);  }
+.font-size-7, .f7   { font-size: var(--step-6);  }
+.font-size-8, .f8   { font-size: var(--step-7);  }
 
 .line-height-solid, .lhs        { line-height: var(--line-height-solid);   }
 .line-height-heading, .lhh      { line-height: var(--line-height-heading); }
