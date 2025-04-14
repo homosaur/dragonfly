@@ -3,8 +3,8 @@
     --border-style: solid;
     --border-color: var(--shade-2);
     --border-radius: var(--border-radius-0);
-    --input-padding: var(--space-2);
-    --input-margin: var(--space-1);
+    --input-padding: var(--space-2xs);
+    --input-margin: var(--space-3xs);
     --input-accent-color: var(--link-color);
 }
 
@@ -102,7 +102,7 @@ input[type=range] {
         height: 18px;
         width: 18px;
         border-radius: 25px;
-    background: var(--blue-9);
+        background: var(--blue-9);
         cursor: pointer;
 }
 
@@ -129,10 +129,10 @@ input[type=radio] + label::before,
 input[type=checkbox] + label::before {
     content: "";
     display: inline-block;
-    width: var(--space-3);
-    height: var(--space-3);
+    width: var(--space-s);
+    height: var(--space-s);
     vertical-align: middle;
-    margin-right: var(--space-1);
+    margin-right: var(--space-3xs);
     background-color: var(--shade-9);
     box-shadow: inset 0px 2px 2px var(--shade-8);
     position: relative;
@@ -199,7 +199,7 @@ meter {
     }
 }
 
-/* 
+/*
 a hack for firefox since you can't color background. this is a better
 starting point i guess.
 */
@@ -228,4 +228,4 @@ progress {
 
 output {
     display: inline-block;
-}   
+}

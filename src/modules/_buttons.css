@@ -17,7 +17,7 @@ a.button {
     border: var(--border-width) var(--border-style) var(--link-color);
     color: var(--link-color);
     text-decoration: none;
-    padding: var(--space-2) var(--space-4);
+    padding: var(--space-2xs) var(--space-m);
 
     &:hover {
         /* styles for button element on hover */
